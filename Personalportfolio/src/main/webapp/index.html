@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Personal Portfolio</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+ 
+     <!-- Hero section -->
+      <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Hello, I'm Anand Kumar<br>Web Developer</h1>
+            <p>I build dynamic and responsive web applications using Java, HTML, CSS, JavaScript, and JDBC.
+                 Turning ideas into functional projects is my passion</p>
+            <a href="document/resume.pdf" class="btn">Download Resume</a>
+        </div>
+        <div class="hero-image">
+            <img src="document/profile0.jpg" alt="Profile Photo">
+        </div>
+    </section>
+     <!-- about section -->
+      <section id="about">
+        <h2>About Me</h2>
+        <p>As a Java Full Stack Developer and Masters in Computer Applications(MCA) student, I specialize in building visually appealing, responsive, and user-friendly web applications that combine creativity with functionality. 
+            I thrive on transforming ideas into digital experiences, focusing on clean code, efficient solutions, 
+            and seamless user interaction. From front-end design to back-end integration,
+             I am passionate about crafting engaging web solutions that leave a lasting impact."</p>
+         <a href="#portfolio" id="btn">View My Work</a>
+      </section>
+      <!-- skill section-->
+       
+       <section id="skills">
+    <h1>My Skills</h1>
+    <div class="skills">
+        <div class="skill">
+            <span>HTML</span>
+            <div class="bar" style="width: 90%;"></div>
+        </div>
+        <div class="skill">
+            <span>CSS</span>
+            <div class="bar" style="width: 80%;"></div>
+        </div>
+        <div class="skill">
+            <span>SQL</span>
+            <div class="bar" style="width: 80%;"></div>
+        </div>
+        <div class="skill">
+            <span>Javascript</span>
+            <div class="bar" style="width: 75%;"></div>
+        </div>
+        <div class="skill">
+            <span>Java</span>
+            <div class="bar" style="width: 90%;"></div>
+        </div>
+    </div>
+</section>
+<!--project section-->
+
+<section id="project">
+    <h2>Projects List</h2>
+    <iframe src="ProjectServlet" width="100%" height="400px" style="border:none;"></iframe>
+</section>
+
+
+<!--contact section-->
+<section id="contact">
+     <h2>Contact Me</h2>
+        <form id="contactForm" action="ContactServlet" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn1">Send Message</button>
+        </form>
+</section>
+<footer> 
+      <div class="social">
+            <a href="https://www.instagram.com/aicodesimplified?igsh=MW40bXVoOWkzZ2dwZg=="><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/anand-kumar-1aa2b02ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>&copy; 2025 Anand Kumar. All Rights Reserved.</p>
+
+</footer>
+<script src="C:\Users\Lenovo\Desktop\myproject\script.js"></script>
+</body>
+</html>
